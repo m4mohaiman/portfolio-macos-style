@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from  "#components/Navbar.jsx"
-import Welcome from  "#components/Welcome.jsx"
+import { Dock , Welcome ,Navbar } from "#components"
 
 const App = () => {
     return (
         <main>
             <Navbar></Navbar>
             <Welcome></Welcome>
+            <Dock></Dock>
         </main>
     )
 }
